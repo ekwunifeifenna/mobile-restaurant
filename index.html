@@ -21,7 +21,7 @@
     <header>
         <!-- <img src="./images/header-image.jpg" alt="Header Image"> -->
         <h1>Ifenna's Diner</h1>
-        <p>The best burgers and pizza's in town</p>
+        <h3>The best burgers and pizza's in town</h3>
     </header>
 
     <!-- This part below needs to be rendered by javascript -->
@@ -34,6 +34,23 @@
         </section>
 
     </main>
+
+    <div class="modal-container" id="modal-container">
+        <div class="payment-modal">
+            <h4>Enter your Card Details</h4>
+            <form id="form-el">
+                <input type="text" placeholder="Enter Your Name" required id="customer-name">
+                <input type="text" placeholder="Enter Card Number" required>
+                <input type="text" placeholder="Enter CVV" required>
+                <button type="button" class="pay-button" id="pay-button">Pay</button>
+
+            </form>
+
+        </div>
+    </div>
+
+    <div class="order-details" id="order-details">
+        Thanks, Ifenna! Your order is on its way!</div>
     
 
     
